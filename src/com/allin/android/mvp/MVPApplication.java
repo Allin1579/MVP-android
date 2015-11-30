@@ -1,15 +1,12 @@
 package com.allin.android.mvp;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.app.Application;
 
-public class MVPApplication extends Activity {
+public class MVPApplication extends Application {
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.mvp);
+	public void onCreate() {
+		// TODO Auto-generated method stub
+		super.onCreate();
 	}
 }
