@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Allin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="password">password:</string>
+    
+    <!-- 底部按钮 -->
+    <string name="first">first</string>
+    <string name="second">second</string>
+    <string name="third">third</string>
+    <string name="fourth">fourth</string>
+    
+    <!-- mvp -->
+    <string name="mvp_hint">输入0到100的整数</string>
+    <string name="sort">排序</string>
+    <string name="count">计数</string>
+
+</resources>

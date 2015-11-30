@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/sort"
+        android:textSize="30sp" />
+    
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/sort"
+        android:layout_toLeftOf="@id/sort"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/count"
+        android:textSize="30sp" />
+    
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_toStartOf="@id/count"
+        android:layout_toLeftOf="@id/count"
+        android:hint="@string/mvp_hint"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:background="@color/transparent" />
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/edit"
+        android:layout_marginTop="2dp" />
+
+</RelativeLayout>

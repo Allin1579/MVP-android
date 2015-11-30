@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_line">#0d0d0f</color>
+    <color name="alpha_black">#66000000</color>
+    <color name="white">#FFFFFF</color>
+	<color name="gray">#bb333333</color><!--透明 灰色 -->
+	<color name="transparent">#00000000</color>
+	<color name="black">#000000</color><!--黑色 -->
+	 <color name="bg_gray">#f2f2f2</color><!-- 灰色 -->
+	<color name="title_green">#46B6B7</color><!-- 浅绿色 -->
+	<color name="text_black">#333333</color><!-- 黑色 -->
+	<color name="bg">#ffededed</color>
+</resources>
