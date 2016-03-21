@@ -51,8 +51,10 @@ public class MVPActivity extends BaseActivity<MVPViewListener, MVPPrestener> imp
 		switch (v.getId()) {
 		case R.id.count:
 			String edit = mEditText.getText().toString();
-			int value = Integer.parseInt(edit);
-			count(value);
+			if(edit != null && !edit.isEmpty()){
+				int value = Integer.parseInt(edit);
+				count(value);
+			}
 			break;
 		case R.id.sort:
 			sort();
