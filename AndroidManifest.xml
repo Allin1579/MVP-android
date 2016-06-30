@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.allin.android.mvp"
+    package="com.allin.mvp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme"
         android:name=".MVPApplication" >
         <activity
-            android:name="com.allin.android.activity.MVPActivity"
+            android:name=".activity.MVPActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
